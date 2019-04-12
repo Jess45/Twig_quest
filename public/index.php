@@ -2,14 +2,13 @@
 
 
 require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../config/config.php';
+
 
 
 
 $loader = new \Twig\Loader\FilesystemLoader('../src/view/item');
-$twig = new \Twig\Environment($loader, array('cache'=> false,
-                                              'debug' => true));
-$twig->addExtension(new \Twig\Extension\DebugExtension);
+$twig = new \Twig\Environment($loader, array('cache'=> false));
+
 
 
  $instruments = array(array('name' => 'Guitare',
