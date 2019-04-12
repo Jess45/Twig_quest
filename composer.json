@@ -1,0 +1,13 @@
+{
+    "name": "wilder2/quetetwig",
+    "description": "Quête Twig",
+    "authors": [
+        {
+            "name": "Jessica Salvat",
+            "email": "jsalvat7@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.7"
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: cadetblue;
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+
+}
+
+.img-thumbnail {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.card {
+
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 50px;
+
+}
+
+.card-img-top {
+    overflow: hidden;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.badge-pill {
+    margin-top: 5px;
+}
